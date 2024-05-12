@@ -7,12 +7,8 @@ const App = () => {
     switch (taskState.type){
       case "add":
       return count + 1;
-      console.log(count);
-
       case "delete":
         return  count - 1;
-        console.log(count);
-
       case "deleteAll":
         return 0;
     }
